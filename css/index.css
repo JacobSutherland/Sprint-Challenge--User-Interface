@@ -148,14 +148,21 @@ footer nav a {
 /* ==== My Code Begins Here */
 
 header {
-    border: 2px solid red;
-    height: 15em;
+    
+    
 }
 
+hr {
+    border: 1px dashed black;;
+}
+
+h2 {
+    font-weight: bold;
+}
 .logo-nav-container{
     display: flex;
     width: 100%;
-    
+
   
 }
 
@@ -213,4 +220,63 @@ background-color: gold;
 
 .box10 {
     background-color: dodgerblue;  
+}
+
+
+/* === About Starts Here */
+
+.about-section {
+ 
+    margin-top:1%;
+    padding: 2%
+
+}
+
+.about-section h2 {
+    font-weight: bold;
+}
+
+.content-card {
+    
+    height:50%;
+    width:50%;
+    padding: 1%
+
+    
+}
+
+
+.content-card img {
+    width: 100%
+}
+
+.learn-more-cards-container {
+
+width: 100%;
+height: 59%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.btn {
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 6%;
+    height: 1.5em;
+    text-align: center;
+    padding-top: .5%
+    
+}
+
+.content-card hr {
+    margin-top:5%;
+
+    width: 100%;
+}
+
+.final-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
